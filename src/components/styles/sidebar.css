@@ -1,13 +1,24 @@
-.sidebar {
+.home {
     display: flex;
     gap: 1rem;
     background: #333;
     padding: 1rem 1rem;
     align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: flex;
+    gap: 1rem;
+    align-items: center;    
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
-    display: flex;
     color: #fff;
 }
 

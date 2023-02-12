@@ -1,3 +1,23 @@
-a {
-    cursor: pointer;
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
+
+#linkedin {
+    color: #0072b1
+}
+
+#github {
+    color: #111
+}
+
+#instagram {
+    color: #bc2a8c
+}
+
+a:hover {
+    background: #F7D354;
+}
+        
