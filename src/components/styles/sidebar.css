@@ -1,21 +1,24 @@
 .home {
     display: flex;
+    flex: auto;
     gap: 1rem;
-    background: #333;
-    padding: 1rem 1rem;
+    background: #222;
+    padding: 1rem;
     align-items: center;
-    justify-content: space-between;
 }
 
 .sidebar {
     display: flex;
+    flex: auto;
+    justify-content: end;
     gap: 1rem;
     align-items: center;    
 }
 
-.social {
+.social-net {
     display: flex;
-    justify-content: space-between;
+    flex: auto;
+    justify-content: center;
 }
 
 h2 {

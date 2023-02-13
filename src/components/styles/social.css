@@ -1,23 +1,27 @@
 .social {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 1rem;
+    font-size: 2rem;
 }
 
-#linkedin {
+.social #linkedin {
     color: #0072b1
 }
 
-#github {
+.social #github {
     color: #111
 }
 
-#instagram {
+.social #instagram {
     color: #bc2a8c
 }
 
 a:hover {
     background: #F7D354;
+    transition: 1s;
+    border-radius: 10%;
+    opacity: 60%;
 }
         

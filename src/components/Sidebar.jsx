@@ -5,8 +5,8 @@ export const Sidebar = () => {
   return (
     <div className="home">
       <h1>Fernando Baladei</h1>    
-    <div className='sidebar'>
-      <div className="social">
+    <div className="sidebar">
+      <div className="social-net">
       <Social />
       </div>
         <h2>Sobre</h2>
