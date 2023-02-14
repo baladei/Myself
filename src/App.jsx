@@ -1,6 +1,7 @@
 import './App.css'
 import { About } from './components/About'
 import { Sidebar } from './components/Sidebar'
+import { Technologies } from './components/Technologies'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <About />
+      <Technologies />
     </div>
   )
 }

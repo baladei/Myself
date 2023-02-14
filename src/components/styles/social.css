@@ -19,7 +19,7 @@
 }
 
 a:hover {
-    background: #F7D354;
+    background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);
     transition: 1s;
     border-radius: 10%;
     opacity: 60%;

@@ -1,0 +1,82 @@
+.technologies {
+    padding: 3rem;
+    gap: 1rem;
+    padding-left: 9rem;    
+    margin-bottom: 1rem
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 1.3rem;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.technologies h2:after {
+    content: "";
+    background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);
+    height: 3px;
+    width: 30%;
+}
+
+.technologies p {
+    color: #a6a6a6;
+    margin-bottom: 1rem;
+    line-height: 1.4rem
+}
+
+.technologies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+        
+.technology-card {
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.technology-card h3 {
+    color: #fff;
+    margin-bottom: 1rem
+}
+
+.technology-card svg {
+    font-size: 6rem
+}
+
+#html svg {
+    color: #E44D26;
+}
+#css svg{
+    color: #1572b6
+}
+                
+#js svg {
+    color: #f0db4f
+} 
+                
+#node svg {
+    color: #83cd29
+} 
+                
+#mysql svg {
+    color: #00618a
+} 
+                
+#react svg {
+    color: #61dafb
+} 
+                

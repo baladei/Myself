@@ -2,7 +2,6 @@
     display: flex;
     flex: auto;
     gap: 1rem;
-    background: #222;
     padding: 1rem;
     align-items: center;
 }
@@ -26,5 +25,7 @@ h2 {
 }
 
 h1 {
-    color: #F7D354;
+    background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -10,8 +10,8 @@ export const Sidebar = () => {
       <Social />
       </div>
         <h2>Sobre</h2>
-        <h2>Projetos</h2>
         <h2>Conhecimentos</h2>
+        <h2>Projetos</h2>
         <h2>Contato</h2>
     </div>
     </div>
