@@ -20,12 +20,16 @@
     justify-content: center;
 }
 
-h2 {
+.sidebar h2 {
     color: #fff;
 }
 
-h1 {
+.home h1 {
     background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.sidebar svg {
+    background: #111;
 }
