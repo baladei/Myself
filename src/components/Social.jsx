@@ -2,12 +2,18 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa'
 
 import './styles/social.css'
 
+const socialNetworks = [
+  { name : "linkedin", icon: <FaLinkedinIn /> },
+  { name : "github", icon: <FaGithub /> },
+  { name : "instagram", icon: <FaInstagram /> },
+]
+
 export const Social = () => {
-  return (
-    <div className="social">
-      <a href="www.google.com.br"><FaGithub id="github" /></a>
-      <a href="www.google.com.br"><FaInstagram id="instagram" /></a>
-      <a href="www.google.com.br"><FaLinkedinIn id="linkedin" /></a>
-    </div>
-  )
+  return <div id="social-networks">
+    {socialNetworks.map((network) => (
+      <a href="#" className='social-btn' id={network.name} key={network.name}>
+          {network.icon}
+      </a>
+  ))}
+</div>
 }
