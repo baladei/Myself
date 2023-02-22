@@ -1,7 +1,6 @@
 .technologies {
     padding: 3rem;
     gap: 1rem;
-    padding-left: 9rem;    
     margin-bottom: 1rem
 }
 
@@ -12,12 +11,10 @@ section {
 
 .technologies h2 {
     display: flex;
-    justify-content: center;
     align-items: center;
     color: #fff;
     font-size: 2.2rem;
     margin-bottom: 1.3rem;
-    justify-content: start;
     gap: 1rem;
 }
 
@@ -31,7 +28,7 @@ section {
 .technologies p {
     color: #a6a6a6;
     margin-bottom: 1rem;
-    line-height: 1.4rem
+    line-height: 2rem
 }
 
 .technologies-grid {
@@ -41,11 +38,15 @@ section {
 }
         
 .technology-card {
+    display: flex;
+    flex: 2;
+    align-items: center;
     gap: 1rem;
     padding: 1rem;
     border: 1px solid #333;
     width: 45%;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 15rem;
 }
 
 .technology-card h3 {
@@ -54,29 +55,34 @@ section {
 }
 
 .technology-card svg {
-    font-size: 6rem
+    font-size: 20rem
 }
 
-#html svg {
+.tecnology-info {
+    justify-content: center;
+    text-align: center;
+}
+
+#html svg, #html h3 {
     color: #E44D26;
 }
-#css svg{
+#css svg, #css h3{
     color: #1572b6
 }
                 
-#js svg {
+#js svg, #js h3 {
     color: #f0db4f
 } 
                 
-#node svg {
+#node svg, #node h3 {
     color: #83cd29
 } 
                 
-#mysql svg {
+#mysql svg, #mysql h3 {
     color: #00618a
 } 
                 
-#react svg {
+#react svg, #react h3{
     color: #61dafb
 } 
                 
