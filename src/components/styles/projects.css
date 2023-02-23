@@ -3,6 +3,7 @@
     flex-direction:  column;
     padding: 2rem;
     gap: 1rem;
+    background: #000;
 }
 
 .projects h2 {

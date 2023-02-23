@@ -1,7 +1,10 @@
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from 'react-icons/ai'
+import './styles/contact.css'
 
 export const Contact = () => {
   return <section id="information">
+    <h2>Contato</h2>
+    <div className="all-cards">
     <div className="info-card">
         <AiFillPhone id="phone-icon" />
         <div>
@@ -23,7 +26,11 @@ export const Contact = () => {
             <p>São Paulo / SP</p>
         </div>
         </div>
+    </div>
+
+    <a href="#" className='btn'>Download CV</a>
+    
         
   </section>
-  
+
   }

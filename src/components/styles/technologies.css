@@ -45,8 +45,9 @@ section {
     padding: 1rem;
     border: 1px solid #333;
     width: 45%;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 15rem;
+    background: #000;
 }
 
 .technology-card h3 {
