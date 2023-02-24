@@ -26,10 +26,7 @@ export const Contact = () => {
             <p>São Paulo / SP</p>
         </div>
         </div>
-    </div>
-
-    <a href="#" className='btn'>Download CV</a>
-    
+    </div>    
         
   </section>
 
