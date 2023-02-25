@@ -13,7 +13,7 @@ const tecnologiesContainer = [
 
 export const Technologies = () => {
   return (
-    <section className="technologies">
+    <section id="technologies">
       <h2>Tecnologias</h2>
       <div className="technologies-grid">
         {tecnologiesContainer.map((tech) => (

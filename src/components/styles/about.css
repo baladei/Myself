@@ -1,4 +1,4 @@
-.about {
+#about {
     display: flex;
     padding: 2rem;
     font-size: 1.5rem;
@@ -7,13 +7,13 @@
     background: #000;
 }
 
-.about p {
+#about p {
     color: #a6a6a6;
     padding: 1rem;
     line-height: 2rem;
 }
 
-.about h1{
+#about h1{
     display: flex;
     justify-content: end;
     align-items: center;
@@ -23,7 +23,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.about h1:before {
+#about h1:before {
     content: "";
     background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);
     height: 3px;

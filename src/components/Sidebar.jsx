@@ -7,12 +7,14 @@ export const Sidebar = () => {
       <h1>Fernando Baladei</h1>    
     <div className="sidebar">
       <div className="social-net">
-      <Social />
+        <Social />
       </div>
-        <h2>Sobre</h2>
-        <h2>Tecnologias</h2>
-        <h2>Projetos</h2>
-        <h2>Contato</h2>
+      <div className="links">
+      <a href="#about"><h2>Sobre</h2></a>
+        <a href="#technologies"><h2>Tecnologias</h2></a>
+        <a href="#projects"><h2>Projetos</h2></a>
+        <a href="#information"><h2>Contato</h2></a>
+      </div>        
     </div>
     </div>
   )

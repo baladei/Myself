@@ -28,6 +28,10 @@
     color: #bc2a8c
 }
 
+#social-networks #facebook {
+    color: #1B74E4
+}
+
 
 .social-btn:hover {
     background: linear-gradient(90deg, #faf752 0%, #dd9024 100%);

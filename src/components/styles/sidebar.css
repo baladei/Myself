@@ -29,3 +29,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.links a:hover {
+    font-size: 103%;
+    transition: 1s;
+}
